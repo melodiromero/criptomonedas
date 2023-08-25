@@ -20,7 +20,7 @@ Análisis exploratorio del mercado de criptomonedas utilizando datos de la API C
 
 >[!IMPORTANT]
 >
->Realizar una inversion de 100 millones en un smart contract, (el más favorable),para el próximo mes.
+>Realizar una inversion de 500 millones en la categoría con mayor tendencia en el mercado para el próximo mes.
 
 ## 2. Fuente de datos
 
@@ -28,6 +28,9 @@ Análisis exploratorio del mercado de criptomonedas utilizando datos de la API C
 
  - Endpoint: **GET coins/market** para otener el listado de todas las monedas con lo datos del mercado de monedas (precio, capitalización de mercado, volumen). 
 
+- Endpoint: **GET coins/{id}/market_chart** para obtener toda la info de las criptos de bitcoin y tether. 
+
+ - Endpoint: **GET coins/categories** lista todas las categorias de criptos con sus datos de mercado.
 
 **Diccionario de Datos**
 
@@ -65,6 +68,4 @@ market_cap
 | roi.percentage     |  Esto probablemente se refiere a la representación del ROI en forma de porcentaje. El ROI se expresa comúnmente en términos porcentuales para indicar cuánto ha aumentado o disminuido el valor de la inversión en relación con su costo inicial.  |
 
 ## 3. EDA - Análisis Exploratorio de Datos
-ver.....Se realizó el análisis explotatorio de los datos para cada uno de los datasets previamente descargados en formato CSV. En cada eda, se analizan los datos, se describen los mismos, detectando outliers sin eliminarlos, se sigue por la descripción de la distribución de sus datos y se ofrecen visualizaciones que contribuyen a la labor de conclusiones que sean útiles para los indicadores de rendimientos y la toma de decisiones oportunas en la cumplimentación de los objetivos específicos. El análisis exploratorio de cada dataset se halla en la carpeta titulada "eda", contiene tres edas acerca de las tecnologias de acceso a internet y la conectividad de las mismas a lo largo de todo el territorio argentino.
-
-## 5. Informe
+---
