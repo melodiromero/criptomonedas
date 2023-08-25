@@ -68,4 +68,21 @@ market_cap
 | roi.percentage     |  Esto probablemente se refiere a la representación del ROI en forma de porcentaje. El ROI se expresa comúnmente en términos porcentuales para indicar cuánto ha aumentado o disminuido el valor de la inversión en relación con su costo inicial.  |
 
 ## 3. EDA - Análisis Exploratorio de Datos
----
+
+Se realizó el análisis explotatorio de los datos, se describen los mismos, detectando outliers sin eliminarlos, se sigue por la descripción de la distribución de sus datos y se ofrecen visualizaciones que contribuyen a la labor de conclusiones que sean útiles para los indicadores de rendimientos y la toma de decisiones oportunas.
+El análisis exploratorio de cada dataset se halla en la carpeta titulada "eda".
+Se han selecionado un top de 10 criptomonedas las mejores establecidas en el mercado por su valoración de capitalización de mercado comparado con el resto de las criptomonedas.
+Encabezando el bitcoin en el primer puesto con el etherium en el segundo, ambos objeto de estudio. 
+
+<p align="center">
+  <img width="600" height="350" src="/img/top10.jpg">
+</p>
+
+Asimismo se presenta una relación fuertemente positiva con las variables "market_cap" y "fully_diluted_valuation" son muy cercanas a 1 (0.998408), tienden a moverse en la misma dirección de manera lineal. En otras palabras, cuando el valor de una variable aumenta, el valor de la otra variable también aumenta en proporción constante, y viceversa.
+
+<p align="center">
+  <img width="600" height="350" src="/img/heatmap.jpg">
+</p>
+
+El precio de Bitcoin (BTC) a la fecha, siendo 22/08/2023 20:13 hs. es de 26.041,16 US$ con un volúmen de comercio en 24 horas de $8.663.258.277,14; con una cantidad en circulación de 19 millones BTC, Bitcoin cotiza a una capitalización de mercado de 506.911.940.900 US$ posicionandose en el primer lugar. En cuanto al Etherium, se cotiza a 1653,27 US$ con un volumen de comercio en 24 horas de $7.125.307.925,76. Su suministro de criptos es de 120 millones ETH y cotiza a una capitalización de mercado de 198.808.099.021 US$.
+
