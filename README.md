@@ -12,10 +12,10 @@ Análisis exploratorio del mercado de criptomonedas utilizando datos de la API C
 
 >[!IMPORTANT]
 >
->Aumentar la inversión del Tether (USDT) en un 10% para el próximo cuatrimestre.
+>Aumentar la inversión del bitcoin en un 15% para el próximo mes.
 
 >[!IMPORTANT]
->Eliminar la inversión en la moneda que menos rendimiento da en el proximo mes.
+>Aumentar la inversión del Tether (USDT) en un 10% para el próximo mes.
 >.
 
 >[!IMPORTANT]
@@ -25,6 +25,9 @@ Análisis exploratorio del mercado de criptomonedas utilizando datos de la API C
 ## 2. Fuente de datos
 
 [API CoinGecko](https://www.coingecko.com/es/api/documentation)
+
+ - Endpoint: **GET coins/market** para otener el listado de todas las monedas con lo datos del mercado de monedas (precio, capitalización de mercado, volumen). 
+
 
 **Diccionario de Datos**
 
