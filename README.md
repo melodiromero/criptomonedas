@@ -97,6 +97,6 @@ Asimismo se presenta una relación fuertemente positiva con las variables "marke
 </p>
 Hay una tendencia de Layer 1 (L1), seguida de los Smart Contract Platform y las Stablecoins en lo que refiere a categorias de criptomonedas donde, nuestro enfoque se centra en el bitcoin y el etherium
 
-El precio de Bitcoin (BTC) a la fecha, siendo 22/08/2023 20:13 hs. es de 26034.0 US$ con un volúmen de comercio en 24 horas de $8.663.258.277,14; con una cantidad en circulación de 19 millones BTC, Bitcoin cotiza a una capitalización de mercado de 506.911.940.900 US$ posicionandose en el primer lugar. En cuanto al Etherium, se cotiza a 1653,27 US$ con un volumen de comercio en 24 horas de $7.125.307.925,76. Su suministro de criptos es de 120 millones ETH y cotiza a una capitalización de mercado de 198.808.099.021 US$.
+El precio de Bitcoin (BTC) a la fecha, siendo 22/08/2023 20:13 hs. es de 26034.0 US$   con una cantidad en circulación de 19 millones BTC, Bitcoin cotiza a una capitalización de mercado de 506.911.940.900 US$ posicionandose en el primer lugar. En cuanto al Etherium, se cotiza a 1653,27 US$. Su suministro de criptos es de 120 millones ETH y cotiza a una capitalización de mercado de 198.808.099.021 US$.
 
 
