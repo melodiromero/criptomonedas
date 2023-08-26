@@ -34,10 +34,10 @@ Análisis exploratorio del mercado de criptomonedas utilizando datos de la API C
 
 **Diccionario de Datos**
 
-market_cap
+market_cap criptomonedas
 | Columna | Descripción  |
 |:------------- |:-------------| 
-| id         | Clave primaria de la moneda          | 
+| id         |Identificador de la moneda          | 
 | symb         | Símbolo de la moneda         |
 | name         | Nombre de la criptomoneda          |
 | image         | url donde se halla una imagen ilustrativa que representa la cripto          |
@@ -67,22 +67,36 @@ market_cap
 | roi.currency     |   Esta expresión se refiere a la moneda en la que se está calculando el ROI. Dado que las criptomonedas y las inversiones pueden estar denominadas en diferentes monedas, esta propiedad podría indicar la moneda específica en la que se está realizando el cálculo del ROI.|
 | roi.percentage     |  Esto probablemente se refiere a la representación del ROI en forma de porcentaje. El ROI se expresa comúnmente en términos porcentuales para indicar cuánto ha aumentado o disminuido el valor de la inversión en relación con su costo inicial.  |
 
+categorias
+| Columna | Descripción  |
+|:------------- |:-------------| 
+| id         | Este es un identificador único de la categoria. | 
+| name       | Indica el nombre de la categoria. | 
+| market_cap         | La capitalización de mercado (market cap). Se calcula multiplicando la cantidad de monedas en circulación por el precio actual de cada moneda en el mercado. Es una medida importante para comprender el tamaño relativo de una categoria de criptomoneda en comparación con otras. | 
+| market_cap_change_24h         | Cambio en la capitalización de mercado de la criptomoneda en las últimas 24 horas | 
+| content         | El contenido se refiere a información relevante o destacada sobre la criptomoneda. Puede incluir noticias, actualizaciones técnicas o cualquier otro tipo de contenido informativo relacionado con la moneda. | 
+| top_3_coins         | Esta sección probablemente enumera las tres principales criptomonedas del mercado en ese momento. Puede ser una lista que enumere las criptomonedas más grandes por capitalización de mercado o por otro criterio específico.| 
+| volume_24h         | volume_24h: El volumen de 24 horas es la cantidad total de una criptomoneda que se ha negociado en todas las bolsas durante las últimas 24 horas. Este valor muestra la liquidez y la actividad comercial de la moneda en un período de tiempo determinado. | 
+| updated_at         | Indica el momento en que se actualizó la información en la entrada. Esto es importante en un mercado tan volátil como el de las criptomonedas, ya que los datos pueden cambiar rápidamente y es crucial conocer la temporalidad de la información presentada. | 
+
+
 ## 3. EDA - Análisis Exploratorio de Datos
 
 Se realizó el análisis explotatorio de los datos, se describen los mismos, detectando outliers sin eliminarlos, se sigue por la descripción de la distribución de sus datos y se ofrecen visualizaciones que contribuyen a la labor de conclusiones que sean útiles para los indicadores de rendimientos y la toma de decisiones oportunas.
 El análisis exploratorio de cada dataset se halla en la carpeta titulada "eda".
 Se han selecionado un top de 10 criptomonedas las mejores establecidas en el mercado por su valoración de capitalización de mercado comparado con el resto de las criptomonedas.
-Encabezando el bitcoin en el primer puesto con el etherium en el segundo, ambos objeto de estudio. 
 
 <p align="center">
-  <img width="600" height="350" src="/img/top10.jpg">
+  <img width="600" height="350" src="../img/top10.jpg">
 </p>
 
 Asimismo se presenta una relación fuertemente positiva con las variables "market_cap" y "fully_diluted_valuation" son muy cercanas a 1 (0.998408), tienden a moverse en la misma dirección de manera lineal. En otras palabras, cuando el valor de una variable aumenta, el valor de la otra variable también aumenta en proporción constante, y viceversa.
 
 <p align="center">
-  <img width="600" height="350" src="/img/heatmap.jpg">
+  <img width="600" height="350" src="../img/heatmap.jpg">
 </p>
+Hay una tendencia de Layer 1 (L1), seguida de los Smart Contract Platform y las Stablecoins en lo que refiere a categorias de criptomonedas donde, nuestro enfoque se centra en el bitcoin y el etherium
 
-El precio de Bitcoin (BTC) a la fecha, siendo 22/08/2023 20:13 hs. es de 26.041,16 US$ con un volúmen de comercio en 24 horas de $8.663.258.277,14; con una cantidad en circulación de 19 millones BTC, Bitcoin cotiza a una capitalización de mercado de 506.911.940.900 US$ posicionandose en el primer lugar. En cuanto al Etherium, se cotiza a 1653,27 US$ con un volumen de comercio en 24 horas de $7.125.307.925,76. Su suministro de criptos es de 120 millones ETH y cotiza a una capitalización de mercado de 198.808.099.021 US$.
+El precio de Bitcoin (BTC) a la fecha, siendo 22/08/2023 20:13 hs. es de 26034.0 US$ con un volúmen de comercio en 24 horas de $8.663.258.277,14; con una cantidad en circulación de 19 millones BTC, Bitcoin cotiza a una capitalización de mercado de 506.911.940.900 US$ posicionandose en el primer lugar. En cuanto al Etherium, se cotiza a 1653,27 US$ con un volumen de comercio en 24 horas de $7.125.307.925,76. Su suministro de criptos es de 120 millones ETH y cotiza a una capitalización de mercado de 198.808.099.021 US$.
+
 
