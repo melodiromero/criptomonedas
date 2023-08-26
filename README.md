@@ -87,13 +87,13 @@ El análisis exploratorio de cada dataset se halla en la carpeta titulada "eda".
 Se han selecionado un top de 10 criptomonedas las mejores establecidas en el mercado por su valoración de capitalización de mercado comparado con el resto de las criptomonedas.
 
 <p align="center">
-  <img width="600" height="350" src="../img/top10.jpg">
+  <img width="600" height="350" src="./img/top10.png">
 </p>
 
 Asimismo se presenta una relación fuertemente positiva con las variables "market_cap" y "fully_diluted_valuation" son muy cercanas a 1 (0.998408), tienden a moverse en la misma dirección de manera lineal. En otras palabras, cuando el valor de una variable aumenta, el valor de la otra variable también aumenta en proporción constante, y viceversa.
 
 <p align="center">
-  <img width="600" height="350" src="../img/heatmap.jpg">
+  <img width="600" height="350" src="./img/heatmap.png">
 </p>
 Hay una tendencia de Layer 1 (L1), seguida de los Smart Contract Platform y las Stablecoins en lo que refiere a categorias de criptomonedas donde, nuestro enfoque se centra en el bitcoin y el etherium
 
